@@ -26,8 +26,6 @@ public class NaukriResumeUploader2 {
 	@Test
 
 	public void resumeUploader() throws InterruptedException, MalformedURLException {
-		String mainWindow, childWindow;
-
 		ChromeOptions chromeOptions = new ChromeOptions(); //
 		chromeOptions.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
 		WebDriverManager.chromedriver().setup();
