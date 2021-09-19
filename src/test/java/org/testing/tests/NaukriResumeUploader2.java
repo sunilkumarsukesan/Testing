@@ -29,7 +29,6 @@ public class NaukriResumeUploader2 {
 		String mainWindow, childWindow;
 
 		ChromeOptions chromeOptions = new ChromeOptions(); //
-		chromeOptions.setExperimentalOption("debuggerAddress", "localhost:51457");
 		chromeOptions.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver(chromeOptions);
