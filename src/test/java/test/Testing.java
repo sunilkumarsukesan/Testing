@@ -18,6 +18,7 @@ public class Testing {
 				System.out.println(split[i].replace("category:", ""));
 			}
 		}
+		System.out.println(System.getProperty("Parameter"));
 
 	}
 
