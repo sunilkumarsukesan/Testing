@@ -8,7 +8,7 @@ public class Testing {
 	@Test
 	public void getCategories() {
 
-		String str = "I am Interested in category:Men and category:Kids along with category:furniture";
+		String str = "I am Interested in category:men and category:Kids along with category:furniture";
 
 		String[] split = str.split(" ");
 
